@@ -1,5 +1,20 @@
 import { PropertyProps } from '@/interfaces';
 
+// Background image for hero section
+export const HERO_BACKGROUND_IMAGE = "/assets/hero-bg.jpg";
+
+// Filter options for the filter section
+export const FILTER_OPTIONS = [
+  "Top Villa",
+  "Self Checkin", 
+  "Pet Friendly",
+  "Free WiFi",
+  "Mountain View",
+  "Beachfront",
+  "City Center",
+  "Private Pool"
+];
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
     name: "Villa Ocean Breeze",
