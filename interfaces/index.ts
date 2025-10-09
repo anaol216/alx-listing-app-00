@@ -29,6 +29,14 @@ export interface PropertyProps {
   };
   image: string;
   discount?: string;
+  description: string;
+  id: string;
+  reviews: {
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+  }[];
 }
 
 export interface PillProps {
@@ -40,3 +48,5 @@ export interface PillProps {
 export interface LayoutProps {
   children: React.ReactNode;
 }
+
+
